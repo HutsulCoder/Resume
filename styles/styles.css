@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    background-color: bisque;
+}
+
+h3 {
+    color: aqua;
+}
+
+div {
+    background-color: beige;
+}
+
+
+.project-title {
+    background-color: blue;
+}
+
+/* about projects */
+
+.projects {
+    background: chocolate;
+}
+
+/* Work expirience */
+
+.work {
+    background-color: blueviolet;
+}
+
+/* Education styles */
+
+.education {
+    background-color: brown;
+}

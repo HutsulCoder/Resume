@@ -79,7 +79,6 @@ body {
 
 .tech-skills {
     margin-left: 40px;
-    color: #fff;
     margin-bottom: 50px;
 }
 
@@ -88,14 +87,38 @@ body {
     margin-left: 20px;
 }
 
+.tech-skills-item {
+    color: #FB6D3A;
+}
+
+.tech-skills-text {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
 .soft-skills {
     margin-left: 40px;
-    color: #fff;
 }
 
 .soft-skills-list {
     padding: 0px;
     margin-left: 20px;
+}
+
+.soft-skills-item {
+    color: #FB6D3A;
+}
+
+.soft-skills-text {
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
 }
 
 .sidebar-tittle {

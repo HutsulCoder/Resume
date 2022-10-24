@@ -12,8 +12,8 @@
 </head>
 <body>
     
-   <div> <!-- Main -->
-        <div> <!-- about user -->
+   <div class="main"> <!-- Main -->
+        <div class="main-content"> <!-- main content -->
             <div>
                 <h2>Front-end Developer</h2>
 
@@ -82,27 +82,28 @@
                 <h4>National University of Radioelectronics</h4>
                 <h5>Managment</h5>
                 <h5>September 2009 - June 2014   |   Country</h5>
-            </div>
+            </div> 
         </div>
-   </div>
    
-   <aside> <!-- sidebare -->
-        <img src="img/photo.jpg" alt="my photo">
-        <div> <!-- Contacts -->
-            <h3>Contacts</h3>
+   <aside class="sidebar"> <!-- sidebare -->
+        <img class="photo" src="img/photo.jpg" alt="my photo">
+        <div class="contacts"> <!-- Contacts -->
+            <h3 class="sidebar-tittle">Contacts</h3>
             <div>
                 <p>
-                    C: <a href="tel:+380970000000">+380970000000</a>
+                    <span class="contact-type">C:</span>
+                    <a href="tel:+380970000000" class="contact-link">+380970000000</a>
                 </p>
                 <p>
-                    E: <a href="mailto:jigorua@gmail.com">jigorua@gmail.com</a>
+                    <span class="contact-type">E:</span>
+                    <a href="mailto:jigorua@gmail.com" class="contact-link">jigorua@gmail.com</a>
                 </p>
             </div>
         </div>
-        <div> <!-- Tech skils -->
-            <h3>Tech skils</h3>
-            <ul>
-                <li>HTML5</li>
+        <div class="tech-skills"> <!-- Tech skils -->
+            <h3 class="sidebar-tittle">Tech skills</h3>
+            <ul class="tech-skills-list">
+                <li> <span class="tech-skills-"></span> HTML5</li>
                 <li>CSS3</li>
                 <li>GIT</li>
                 <li>WebPack</li>
@@ -111,9 +112,9 @@
                 <li>Node.js</li>
             </ul>
         </div>
-        <div> <!-- Soft Skills -->
-            <h3>Soft skills</h3>
-            <ul>
+        <div class="soft-skills"> <!-- Soft Skills -->
+            <h3 class="sidebar-tittle">Soft skills</h3>
+            <ul class="soft-skills-list">
                 <li>Scrum</li>
                 <li>Agile</li>
                 <li>GTD</li>

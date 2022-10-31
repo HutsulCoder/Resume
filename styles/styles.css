@@ -7,8 +7,7 @@ body {
 
 .main {
     display: flex;
-    flex-direction: row-reverse;
-    width: 1200px;
+    width: 1200 px;
     margin: 0 auto;
 }
 
@@ -69,7 +68,7 @@ body {
 
 .project-list {
     padding: 0px;
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 .project-item {
@@ -81,9 +80,9 @@ body {
     display: flex;
 }
 
-.project-test {
+/* .project-test {
 
-}
+} */
 
 .project,
 .project-link {
@@ -91,12 +90,11 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #595959
 }
 
 .project-link {
-    text-decoration: none;
-    margin-left: 10px;
+    text-decoration: none
 }
 
 .project-bracket {
@@ -104,7 +102,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    color: #000000;
+    color: #000000
 }
 
 /* work styles */

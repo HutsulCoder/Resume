@@ -167,7 +167,7 @@ body {
 /* sidebar styles */
 
 .sidebar {
-    background-color: #99ffcc;
+    background-color: #00cccc;
     padding-top: 40px;
     width: 370px;
 }
@@ -196,7 +196,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #6B727D;
+    color: #fff;
 }
 
 .tech-skills {

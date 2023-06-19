@@ -8,7 +8,7 @@ body {
 .main {
     display: flex;
     flex-direction: row-reverse;
-    width: 1200 px;
+    width: 1200px;
     margin: 0 auto;
     align-content: center;
 }
@@ -167,7 +167,7 @@ body {
 /* sidebar styles */
 
 .sidebar {
-    background-color: #1e2939;
+    background-color: #99ffcc;
     padding-top: 40px;
     width: 370px;
 }
